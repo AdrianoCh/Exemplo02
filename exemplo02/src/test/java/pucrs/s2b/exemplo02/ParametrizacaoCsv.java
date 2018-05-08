@@ -15,10 +15,6 @@ public class ParametrizacaoCsv {
     @FileParameters("./dados.csv")
     public void testeParametrizacaoJUnit(int n1, int n2, int resultado) {
 		assertEquals(resultado, App.somar(n1, n2));
-		
-		
-
     }
-
 }
 
